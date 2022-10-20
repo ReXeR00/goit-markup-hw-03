@@ -47,7 +47,8 @@ header {
 
 .container {
   width: 1200px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
   padding: 0px 15px;
 }
@@ -164,7 +165,7 @@ header {
 }
 
 .phone {
-  position: absolute;
+  white-space: nowrap;
   top: 32px;
   font-size: 14px;
   line-height: 1.1;
@@ -178,13 +179,7 @@ header {
 
 /*==MENU_NAV==*/
 
-.main {
-  width: 1600px;
-  background-color: var(--white-color);
-}
-
 .menu {
-  width: 1600px;
   height: 600px;
   background: rgba(47, 48, 58, 1);
   margin: auto;
@@ -227,7 +222,8 @@ header {
 }
 
 .advantages {
-  margin: 94px 0px 94px 0px;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 .flex-first {
@@ -281,7 +277,6 @@ header {
 }
 
 .team_section {
-  width: 1600px;
   height: 648px;
   background-color: rgba(245, 244, 250, 1);
   margin-left: auto;
@@ -337,7 +332,6 @@ header {
 
 .footer {
   background-color: rgba(47, 48, 58, 1);
-  width: 1600px;
   height: 252px;
   margin: auto;
 }
