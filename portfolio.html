@@ -19,8 +19,8 @@
       <title>Portfolio</title>
     </head>
     <body>
-      <header class="header container">
-        <div class="header_flex">
+      <header class="header">
+        <div class="header_flex container">
           <a href="inidex.html" class="web"
             >Web<span class="studio">Studio</span></a
           >
@@ -28,10 +28,12 @@
           <nav class="menu_nav">
             <ul class="list nav_list">
               <li>
-                <a class="agency" href="inidex.html">Agencja </a>
+                <a class="agency_second" href="inidex.html">Agencja </a>
               </li>
               <li>
-                <a class="portfolio" href="./portfolio.html">Portfolio</a>
+                <a class="portfolio_second" href="./portfolio.html"
+                  >Portfolio</a
+                >
               </li>
               <li>
                 <a class="contact" href="#">Kontakt</a>
@@ -51,99 +53,151 @@
         </div>
       </header>
 
-      <main class="filter">
-        <section class="section">
-          <div class="container">
-            <ul class="f_border">
-              <li class="portfolio_button_first" type="button">Wszystkie</li>
-              <li class="portfolio_button" type="button">Strony</li>
-              <li class="portfolio_button" type="button">Aplikacje</li>
-              <li class="portfolio_button" type="button">Dizajn</li>
-              <li class="portfolio_button" type="button">Markieting</li>
-            </ul>
-          </div>
-        </section>
-        <section>
-          <div class="cointeiner">
-            <ul class="portfolio_card">
-              <li class="item">
-                <img class="card-image" src="images/img8.jpg" alt="Technocrack"
-                width: 370px; height: 294px; />
-                <div class="frame">
-                  <h2 class="title_content">Technocrack</h2>
-                  <p class="description">Strona internetowa</p>
-                </div>
-              </li>
-              <li class="item">
-                <div class="frame">
-                  <img class="card-image" src="images/img9.jpg" alt="Grafika New
-                  Orlean vs Golden Star" width: 370px; height: 294px; />
-                  <h2 class="title_content">
-                    Grafika New Orlean vs Golden Star
-                  </h2>
-                  <p class="description">Dizajn</p>
-                </div>
-              </li>
-              <li class="item">
-                <img class="card-image" src="images/img10.jpg" alt="Restauracja
-                Seafood" width: 370px; height: 294px;/>
-                <div class="frame">
-                  <h2 class="title_content">Restauracja Seafood</h2>
-                  <p class="description">Aplikacja</p>
-                </div>
-              </li>
-              <li class="item">
-                <div class="frame">
-                  <img class="card-image" src="images/img11.jpg" alt="Projekt
-                  Prime"width: 370px; height: 294px; />
-                  <h2 class="title_content">Projekt Prime</h2>
-                  <p class="description">Marketing</p>
-                </div>
-              </li>
-              <li class="item">
-                <img class="card-image" src="images/img12.jpg" alt="Projekt
-                Boxes"width: 370px; height: 294px; />
-                <div class="frame">
-                  <h2 class="title_content">Projekt Boxes</h2>
-                  <p class="description">Aplikacja</p>
-                </div>
-              </li>
-              <li class="item">
-                <img class="card-image" src="images/img13.jpg" alt="Inspiration
-                has no Borders" width: 370px; height: 294px;/>
-                <div class="frame">
-                  <h2 class="title_content">Inspiration has no Borders</h2>
-                  <p class="description">Strona internetowa</p>
-                </div>
-              </li>
-              <li class="item">
-                <img class="card-image" src="images/img14.jpg" alt="Magazyn
-                Limited Edition"width: 370px; height: 294px;/>
-                <div class="frame">
-                  <h2 class="title_content">Magazyn Limited Edition</h2>
-                  <p class="description">Dizajn</p>
-                </div>
-              </li>
-              <li class="item">
-                <img class="card-image" src="images/img15.jpg" alt="Projekt LAB"
-                width: 370px; height: 294px;/>
-                <div class="frame">
-                  <h2 class="title_content">Projekt LAB</h2>
-                  <p class="description">Marketing</p>
-                </div>
-              </li>
-              <li class="item">
-                <img class="card-image" src="images/img16.jpg" alt="Growing
-                Business" width: 370px; height: 294px;/>
-                <div class="frame">
-                  <h2 class="title_content">Growing Business</h2>
-                  <p class="description">Aplikacja</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </main>
+      <section class="section">
+        <div class="container">
+          <ul class="f_border">
+            <li>
+              <button class="portfolio_button_first" type="button">
+                Wszystkie
+              
+            </li>
+            <li><button class="portfolio_button" type="button">Markieting </button></li>
+            <li><button class="portfolio_button" type="button">Strony</button></li>
+            <li><button class="portfolio_button" type="button">Aplikacje </button></li>
+            <li><button class="portfolio_button" type="button">Dizajn </button></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <ul class="portfolio_card">
+            <li class="item">
+              <img
+                class="card-image"
+                src="images/img8.jpg"
+                alt="Technocrack"
+                width="370"
+                height="294"
+              />
+              <div class="frame">
+                <h4 class="title_content">Technocrack</h4>
+                <p class="description">Strona internetowa</p>
+              </div>
+            </li>
+            <li class="item">
+              <div class="frame">
+                <img
+                  class="card-image"
+                  src="images/img9.jpg"
+                  alt="Grafika New
+                  Orlean vs Golden Star"
+                  width="370"
+                  height="294"
+                />
+                <h4 class="title_content">Grafika New Orlean vs Golden Star</h4>
+                <p class="description">Dizajn</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                class="card-image"
+                src="images/img10.jpg"
+                alt="Restauracja
+                Seafood"
+                width="370"
+                height="294"
+              />
+              <div class="frame">
+                <h4 class="title_content">Restauracja Seafood</h4>
+                <p class="description">Aplikacja</p>
+              </div>
+            </li>
+            <li class="item">
+              <div class="frame">
+                <img
+                  class="card-image"
+                  src="images/img11.jpg"
+                  alt="Projekt
+                  Prime"
+                  width="370"
+                  height="294"
+                />
+                <h4 class="title_content">Projekt Prime</h4>
+                <p class="description">Marketing</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                class="card-image"
+                src="images/img12.jpg"
+                alt="Projekt
+                Boxes"
+                width="370"
+                height="294"
+              />
+              <div class="frame">
+                <h4 class="title_content">Projekt Boxes</h4>
+                <p class="description">Aplikacja</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                class="card-image"
+                src="images/img13.jpg"
+                alt="Inspiration
+                has no Borders"
+                width="370"
+                height="294"
+              />
+              <div class="frame">
+                <h4 class="title_content">Inspiration has no Borders</h4>
+                <p class="description">Strona internetowa</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                class="card-image"
+                src="images/img14.jpg"
+                alt="Magazyn
+                Limited Edition"
+                width="370"
+                height="294"
+              />
+              <div class="frame">
+                <h4 class="title_content">Magazyn Limited Edition</h4>
+                <p class="description">Dizajn</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                class="card-image"
+                src="images/img15.jpg"
+                alt="Projekt LAB"
+                width="370"
+                height="294"
+              />
+              <div class="frame">
+                <h4 class="title_content">Projekt LAB</h4>
+                <p class="description">Marketing</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                class="card-image"
+                src="images/img16.jpg"
+                alt="Growing
+                Business"
+                width="370"
+                height="294"
+              />
+              <div class="frame">
+                <h4 class="title_content">Growing Business</h4>
+                <p class="description">Aplikacja</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
       <footer class="footer">
         <div class="container">
           <ul class="list">
